@@ -30,5 +30,5 @@ def decode_morse(morse_code):
 
 if __name__=="__main__":
     #get user input and then print the tranlation
-    user= input(("Enter the morse code you would like to decypher!\n"))
+    user= input(("Enter the morse code you would like to decypher:\n"))
     print(decode_morse(user))
